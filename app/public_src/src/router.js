@@ -15,6 +15,9 @@ import Logout from '@GuzabaPlatform.Platform/views/user/Logout.vue'
 import Register from '@GuzabaPlatform.Platform/views/user/Register.vue'
 import AliasMatcher from '@GuzabaPlatform.Platform/views/AliasMatcher.vue'
 import Redirect from '@GuzabaPlatform.Platform/views/Redirect.vue'
+
+import Products from '@/../../../vendor/kenashkov/braiiny-products/app/public_src/src/ProductsAdmin.vue'
+
 //import NotFound from '@GuzabaPlatform.Platform/views/NotFound.vue'
 ///import axios from "axios";
 
@@ -79,6 +82,12 @@ let static_routes = [
         name: 'Register',
         //component: Auth
         component: Register
+    },
+    {
+        path: '/admin/products',
+        name: 'Products',
+        //component: Auth
+        component: Products
     },
     {
         path: '/redirect/:to',

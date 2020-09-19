@@ -6,7 +6,7 @@
             <router-link to="/user/register" v-if="! isLoggedIn">Register</router-link>
             <router-link to="/user/logout" v-if="isLoggedIn">Logout</router-link> |
 
-            <router-link to="/about">About</router-link>
+            <router-link to="/admin/products">Products</router-link>
             <router-link to="/admin" v-if="isLoggedIn">Admin</router-link>
 
             <!-- <router-link v-for="(Link, index) in header_links" :key="index" to="/aa">{{Link.link_name}}</router-link> -->

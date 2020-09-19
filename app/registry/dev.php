@@ -41,6 +41,7 @@ use GuzabaPlatform\Platform\Application\VueComponentHooks;
 use GuzabaPlatform\Platform\Application\ModelFrontendMap;
 use Guzaba2\Transaction\TransactionManager;
 use Psr\Log\LogLevel;
+use \Kenashkov\Braiiny\Application\BillyDk;
 
 return [
     GuzabaPlatform::class => [
@@ -184,8 +185,8 @@ return [
             ],
             'AuthorizationProvider'         => [
                 //'class'                         => BypassAuthorizationProvider::class,
-                'class'                         => AclAuthorizationProvider::class,//enforces permissions, production operation
-                //'class'                         => AclCreateAuthorizationProvider::class,//allows permissions to be created & revoked but does not enforce permissions (to be used when new controllers are created)
+                //'class'                         => AclAuthorizationProvider::class,//enforces permissions, production operation
+                'class'                         => AclCreateAuthorizationProvider::class,//allows permissions to be created & revoked but does not enforce permissions (to be used when new controllers are created)
                 'args'                          => [],
             ],
             'CurrentUser'                   => [
@@ -289,6 +290,12 @@ return [
                 'args'                          => [],
                 'type'                          => 'coroutine',
             ],
+
+
+            'Billy'                         => [
+                'class'                         => BillyDk::class,
+                'args'                          => [],
+            ]
 
         ],
     ],
