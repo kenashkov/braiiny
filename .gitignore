@@ -1,0 +1,8 @@
+/vendor
+/app/startup_generated/*
+!/app/startup_generated/README.md
+/app/uploads_temp_dir/*
+!/app/uploads_temp_dir/README.md
+/app/registry/local.php
+/app/logs/*
+!/app/logs/README.md

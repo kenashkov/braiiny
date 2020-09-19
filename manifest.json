@@ -1,0 +1,104 @@
+{
+    "name": "GuzabaPlatform",
+    "url": "https://platform.guzaba.org/",
+    "version": "9999999-dev",
+    "installed_time": 1600508040,
+    "components": [
+        {
+            "name": "guzaba-platform/guzaba-platform",
+            "namespace": "GuzabaPlatform\\Platform",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform/app/src/GuzabaPlatform/Platform/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform/app/public_src",
+            "installed_time": 1600508040
+        },
+        {
+            "name": "guzaba-platform/classes",
+            "namespace": "GuzabaPlatform\\Classes",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/classes",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/classes/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/classes/app/public_src",
+            "installed_time": 1600508041
+        },
+        {
+            "name": "guzaba-platform/controllers",
+            "namespace": "GuzabaPlatform\\Controllers",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/controllers",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/controllers/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/controllers/app/public_src",
+            "installed_time": 1600508041
+        },
+        {
+            "name": "guzaba-platform/navigation",
+            "namespace": "GuzabaPlatform\\Navigation",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/navigation",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/navigation/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/navigation/app/public_src",
+            "installed_time": 1600508042
+        },
+        {
+            "name": "guzaba-platform/assets",
+            "namespace": "GuzabaPlatform\\Assets",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/assets",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/assets/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/assets/app/public_src",
+            "installed_time": 1600508042
+        },
+        {
+            "name": "guzaba-platform/users",
+            "namespace": "GuzabaPlatform\\Users",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/users",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/users/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/users/app/public_src",
+            "installed_time": 1600508043
+        },
+        {
+            "name": "guzaba-platform/roles",
+            "namespace": "GuzabaPlatform\\Roles",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/roles",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/roles/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/roles/app/public_src",
+            "installed_time": 1600508043
+        },
+        {
+            "name": "guzaba-platform/crud",
+            "namespace": "GuzabaPlatform\\Crud",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/crud",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/crud/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/crud/app/public_src",
+            "installed_time": 1600508043
+        },
+        {
+            "name": "guzaba-platform/cms",
+            "namespace": "GuzabaPlatform\\Cms",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/cms",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/cms/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/cms/app/public_src",
+            "installed_time": 1600508044
+        },
+        {
+            "name": "guzaba-platform/app-server-monitor",
+            "namespace": "GuzabaPlatform\\AppServer\\Monitor",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/app-server-monitor",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/app-server-monitor/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/app-server-monitor/app/public_src",
+            "installed_time": 1600508058
+        },
+        {
+            "name": "guzaba-platform/catalog",
+            "namespace": "GuzabaPlatform\\Catalog",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/public_src",
+            "installed_time": 1600508058
+        },
+        {
+            "name": "guzaba-platform/request-caching",
+            "namespace": "GuzabaPlatform\\RequestCaching",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/request-caching",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/request-caching/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/request-caching/app/public_src",
+            "installed_time": 1600508058
+        }
+    ]
+}

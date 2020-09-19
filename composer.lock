@@ -1,0 +1,4470 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1921b89595d33eef26a8ab5553de09db",
+    "packages": [
+        {
+            "name": "azonmedia/apm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/apm.git",
+                "reference": "5dc714515b3cec5abd0b0cf449aa9e86861b0b6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/apm/zipball/5dc714515b3cec5abd0b0cf449aa9e86861b0b6f",
+                "reference": "5dc714515b3cec5abd0b0cf449aa9e86861b0b6f",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/di": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Apm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Application Performance Monitor",
+            "homepage": "https://github.com/AzonMedia/apm",
+            "keywords": [
+                "apm",
+                "performance monitor"
+            ],
+            "time": "2020-08-31T09:48:57+00:00"
+        },
+        {
+            "name": "azonmedia/components",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/components.git",
+                "reference": "5aa52d7208f55f5f2b7fa59ec6d291f03bd7cd53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/components/zipball/5aa52d7208f55f5f2b7fa59ec6d291f03bd7cd53",
+                "reference": "5aa52d7208f55f5f2b7fa59ec6d291f03bd7cd53",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Components\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Base component classes and interfaces",
+            "homepage": "https://github.com/AzonMedia/components",
+            "keywords": [
+                "components"
+            ],
+            "time": "2020-07-19T14:46:24+00:00"
+        },
+        {
+            "name": "azonmedia/debug",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/debug.git",
+                "reference": "88be915af1d76ae0e33bbf9cd9da62a86e2cc327"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/debug/zipball/88be915af1d76ae0e33bbf9cd9da62a86e2cc327",
+                "reference": "88be915af1d76ae0e33bbf9cd9da62a86e2cc327",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Debug\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Debug utilities",
+            "homepage": "https://github.com/AzonMedia/debug",
+            "keywords": [
+                "debug",
+                "utility"
+            ],
+            "time": "2020-07-19T14:46:35+00:00"
+        },
+        {
+            "name": "azonmedia/di",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/di.git",
+                "reference": "957c175c5a64bb97ef4706871b44640a3b9404ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/di/zipball/957c175c5a64bb97ef4706871b44640a3b9404ab",
+                "reference": "957c175c5a64bb97ef4706871b44640a3b9404ab",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "php": ">=7.2.0",
+                "psr/container": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Di\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Dependency injection container",
+            "homepage": "https://github.com/AzonMedia/di",
+            "keywords": [
+                "container",
+                "dependency injection",
+                "di"
+            ],
+            "time": "2020-07-29T10:32:01+00:00"
+        },
+        {
+            "name": "azonmedia/exceptions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/exceptions.git",
+                "reference": "0a39be5375d0050b6b7b29d5c2f32cc4fbe02ec7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/exceptions/zipball/0a39be5375d0050b6b7b29d5c2f32cc4fbe02ec7",
+                "reference": "0a39be5375d0050b6b7b29d5c2f32cc4fbe02ec7",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/packages": "dev-master",
+                "azonmedia/translator": "dev-master",
+                "azonmedia/utilities": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Exceptions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Base exceptions",
+            "homepage": "https://github.com/AzonMedia/exceptions",
+            "keywords": [
+                "exceptions"
+            ],
+            "time": "2020-08-07T13:45:19+00:00"
+        },
+        {
+            "name": "azonmedia/filesystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/filesystem.git",
+                "reference": "97abac6bda3af248385bdd67e938a86c530afa2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/filesystem/zipball/97abac6bda3af248385bdd67e938a86c530afa2e",
+                "reference": "97abac6bda3af248385bdd67e938a86c530afa2e",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/exceptions": "dev-master",
+                "azonmedia/packages": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Filesystem\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Filesystem classes",
+            "homepage": "https://github.com/AzonMedia/filesystem",
+            "keywords": [
+                "filesystem"
+            ],
+            "time": "2020-09-05T19:56:58+00:00"
+        },
+        {
+            "name": "azonmedia/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/http.git",
+                "reference": "58550c8397fcb739e2f537f4ad0d5c9e4e3663ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/http/zipball/58550c8397fcb739e2f537f4ad0d5c9e4e3663ea",
+                "reference": "58550c8397fcb739e2f537f4ad0d5c9e4e3663ea",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/exceptions": "dev-master",
+                "azonmedia/translator": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HTTP library",
+            "homepage": "https://github.com/AzonMedia/http",
+            "keywords": [
+                "http"
+            ],
+            "time": "2020-08-31T10:32:47+00:00"
+        },
+        {
+            "name": "azonmedia/lock",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/lock.git",
+                "reference": "5bf022924daba9a46ba32e9e6e7b550616ce8048"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/lock/zipball/5bf022924daba9a46ba32e9e6e7b550616ce8048",
+                "reference": "5bf022924daba9a46ba32e9e6e7b550616ce8048",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/di": "dev-master",
+                "azonmedia/utilities": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Lock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Lock provider",
+            "homepage": "https://github.com/AzonMedia/lock",
+            "keywords": [
+                "lock",
+                "lock manager"
+            ],
+            "time": "2020-07-19T14:49:35+00:00"
+        },
+        {
+            "name": "azonmedia/model-frontend-map",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/module-model-frontend-map.git",
+                "reference": "c2f1bb26752075ff0dc17eacc4644011f3672b42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/module-model-frontend-map/zipball/c2f1bb26752075ff0dc17eacc4644011f3672b42",
+                "reference": "c2f1bb26752075ff0dc17eacc4644011f3672b42",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/di": "dev-master",
+                "azonmedia/utilities": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\ModelFrontendMap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Model to frontend components mapping",
+            "homepage": "https://github.com/AzonMedia/apm",
+            "keywords": [
+                "model frontend map"
+            ],
+            "time": "2020-09-05T15:21:56+00:00"
+        },
+        {
+            "name": "azonmedia/packages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/packages.git",
+                "reference": "6b768c6b66d366491b87b2754acb396dd4477a5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/packages/zipball/6b768c6b66d366491b87b2754acb396dd4477a5c",
+                "reference": "6b768c6b66d366491b87b2754acb396dd4477a5c",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "composer/composer": "^1.9",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Packages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Classes to handle composer packages",
+            "homepage": "https://github.com/AzonMedia/packages",
+            "keywords": [
+                "packages"
+            ],
+            "time": "2020-07-31T16:11:00+00:00"
+        },
+        {
+            "name": "azonmedia/patterns",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/patterns.git",
+                "reference": "2d4de5f30160e49876e19d90e76fc1491b321e7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/patterns/zipball/2d4de5f30160e49876e19d90e76fc1491b321e7b",
+                "reference": "2d4de5f30160e49876e19d90e76fc1491b321e7b",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Patterns\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Design patterns",
+            "homepage": "https://github.com/AzonMedia/patterns",
+            "keywords": [
+                "design patterns"
+            ],
+            "time": "2020-07-19T14:50:02+00:00"
+        },
+        {
+            "name": "azonmedia/psr-to-swoole",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/psr-to-swoole.git",
+                "reference": "e3edd0df8f03feec92caaa9b4008337308d8a069"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/psr-to-swoole/zipball/e3edd0df8f03feec92caaa9b4008337308d8a069",
+                "reference": "e3edd0df8f03feec92caaa9b4008337308d8a069",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "eaglewu/swoole-ide-helper": "dev-master",
+                "php": ">=7.2.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\PsrToSwoole\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Utilities to convert between Swoole and PSR request and response",
+            "homepage": "https://github.com/AzonMedia/psr-to-swoole",
+            "keywords": [
+                "psr",
+                "swoole",
+                "utility"
+            ],
+            "time": "2020-07-19T14:50:11+00:00"
+        },
+        {
+            "name": "azonmedia/reflection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/reflection.git",
+                "reference": "3bdfae2ef81308957d9edd8f60f8ea134c7ce542"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/reflection/zipball/3bdfae2ef81308957d9edd8f60f8ea134c7ce542",
+                "reference": "3bdfae2ef81308957d9edd8f60f8ea134c7ce542",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Reflection\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Classes extending various PHP/Reflection classes",
+            "homepage": "https://github.com/AzonMedia/reflection",
+            "keywords": [
+                "reflection",
+                "utility"
+            ],
+            "time": "2020-08-31T09:50:03+00:00"
+        },
+        {
+            "name": "azonmedia/registry",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/registry.git",
+                "reference": "1141940c06a813ae3f953e4c67f177da34210a43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/registry/zipball/1141940c06a813ae3f953e4c67f177da34210a43",
+                "reference": "1141940c06a813ae3f953e4c67f177da34210a43",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "ext-simplexml": "*",
+                "php": ">=7.2.0",
+                "symfony/yaml": "^4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Registry\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library for loading and providing configuration settings",
+            "homepage": "https://github.com/AzonMedia/reflection",
+            "keywords": [
+                "registry",
+                "utility"
+            ],
+            "time": "2020-07-29T10:32:27+00:00"
+        },
+        {
+            "name": "azonmedia/routes-map",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/routes-map.git",
+                "reference": "0bab64fb7a0b709ed56640f20c4206566860bcf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/routes-map/zipball/0bab64fb7a0b709ed56640f20c4206566860bcf4",
+                "reference": "0bab64fb7a0b709ed56640f20c4206566860bcf4",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/exceptions": "dev-master",
+                "azonmedia/routing": "dev-master",
+                "azonmedia/translator": "dev-master",
+                "azonmedia/utilities": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\RoutesMap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Class:method to route mapping generated from PHP to JS",
+            "homepage": "https://github.com/AzonMedia/routes-map",
+            "keywords": [
+                "php to js",
+                "routes map"
+            ],
+            "time": "2020-09-17T13:13:07+00:00"
+        },
+        {
+            "name": "azonmedia/routing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/routing.git",
+                "reference": "2804a46950e8e9e774d35325a198bb5fb56367e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/routing/zipball/2804a46950e8e9e774d35325a198bb5fb56367e1",
+                "reference": "2804a46950e8e9e774d35325a198bb5fb56367e1",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "php": ">=7.2.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Routing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Routing library",
+            "homepage": "https://github.com/AzonMedia/routing",
+            "keywords": [
+                "routing",
+                "utility"
+            ],
+            "time": "2020-09-17T19:02:00+00:00"
+        },
+        {
+            "name": "azonmedia/swoole-to-psr",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/swoole-to-psr.git",
+                "reference": "61ee3e29ba9455bb38cc778dbedbb03d0c0d0b38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/swoole-to-psr/zipball/61ee3e29ba9455bb38cc778dbedbb03d0c0d0b38",
+                "reference": "61ee3e29ba9455bb38cc778dbedbb03d0c0d0b38",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "php": ">=7.2.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "azonmedia/psr-to-swoole": "dev-master",
+                "eaglewu/swoole-ide-helper": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\SwooleToPsr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Utilities to convert between Swoole and PSR request and response",
+            "homepage": "https://github.com/AzonMedia/swoole-to-psr",
+            "keywords": [
+                "psr",
+                "swoole",
+                "utility"
+            ],
+            "time": "2020-09-05T19:56:35+00:00"
+        },
+        {
+            "name": "azonmedia/transaction",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/transaction.git",
+                "reference": "93d4008c78c9d1f84c1bf7b2e1a76ea76482539a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/transaction/zipball/93d4008c78c9d1f84c1bf7b2e1a76ea76482539a",
+                "reference": "93d4008c78c9d1f84c1bf7b2e1a76ea76482539a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Transaction\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Transactions manager and transaction classes",
+            "homepage": "https://github.com/AzonMedia/transaction",
+            "keywords": [
+                "transaction",
+                "transaction maanger"
+            ],
+            "time": "2020-07-19T14:50:50+00:00"
+        },
+        {
+            "name": "azonmedia/translator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/translator.git",
+                "reference": "29398c93789a78f2471f8dd4d2f39cfc286e5d20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/translator/zipball/29398c93789a78f2471f8dd4d2f39cfc286e5d20",
+                "reference": "29398c93789a78f2471f8dd4d2f39cfc286e5d20",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/packages": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Translator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Translator",
+            "homepage": "https://github.com/AzonMedia/translator",
+            "keywords": [
+                "translator"
+            ],
+            "time": "2020-09-17T13:17:54+00:00"
+        },
+        {
+            "name": "azonmedia/url-rewriting",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/url-rewriting.git",
+                "reference": "814b21dbd8bb10b6bdcafa3c4027eccffdb81533"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/url-rewriting/zipball/814b21dbd8bb10b6bdcafa3c4027eccffdb81533",
+                "reference": "814b21dbd8bb10b6bdcafa3c4027eccffdb81533",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "php": ">=7.2.0",
+                "psr/http-message": "^1.0",
+                "tivie/htaccess-parser": "^0.2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\UrlRewriting\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "URL rewriting library",
+            "homepage": "https://github.com/AzonMedia/url0rewriting",
+            "keywords": [
+                "URL rewriting",
+                "utility"
+            ],
+            "time": "2020-07-19T14:51:07+00:00"
+        },
+        {
+            "name": "azonmedia/utilities",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/utilities.git",
+                "reference": "7389f13967722490a508be29f5c65284b17ef555"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/utilities/zipball/7389f13967722490a508be29f5c65284b17ef555",
+                "reference": "7389f13967722490a508be29f5c65284b17ef555",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/exceptions": "dev-master",
+                "azonmedia/translator": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Utilities\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Various utilities",
+            "homepage": "https://github.com/AzonMedia/utilities",
+            "keywords": [
+                "utility"
+            ],
+            "time": "2020-09-12T19:51:38+00:00"
+        },
+        {
+            "name": "azonmedia/vue-component-hooks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/module-vue-component-hooks.git",
+                "reference": "325dff93a7a26061955eab875ff2f6b247d136fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/module-vue-component-hooks/zipball/325dff93a7a26061955eab875ff2f6b247d136fd",
+                "reference": "325dff93a7a26061955eab875ff2f6b247d136fd",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/utilities": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\VueComponentHooks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create and dump Vue components for hooks",
+            "homepage": "https://github.com/AzonMedia/module-vue-component-hooks",
+            "keywords": [
+                "vue router"
+            ],
+            "time": "2020-09-17T13:19:23+00:00"
+        },
+        {
+            "name": "azonmedia/vue-router",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/module-vue-router.git",
+                "reference": "3ed2d3907e8d477be8cebc453100a8d23093cce4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/module-vue-router/zipball/3ed2d3907e8d477be8cebc453100a8d23093cce4",
+                "reference": "3ed2d3907e8d477be8cebc453100a8d23093cce4",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "azonmedia/exceptions": "dev-master",
+                "azonmedia/utilities": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\VueRouter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create and dump Vue routes from PHP",
+            "homepage": "https://github.com/AzonMedia/module-vue-router",
+            "keywords": [
+                "vue router"
+            ],
+            "time": "2020-08-31T09:53:23+00:00"
+        },
+        {
+            "name": "azonmedia/watchdog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/watchdog.git",
+                "reference": "40fc3cac6fb301f5b6627d073c712b5968b9c226"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/watchdog/zipball/40fc3cac6fb301f5b6627d073c712b5968b9c226",
+                "reference": "40fc3cac6fb301f5b6627d073c712b5968b9c226",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Azonmedia\\Watchdog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Watchdog for Swoole workers",
+            "homepage": "https://github.com/AzonMedia/watchdog",
+            "keywords": [
+                "watchdog"
+            ],
+            "time": "2020-07-19T14:51:32+00:00"
+        },
+        {
+            "name": "composer/ca-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/ca-bundle.git",
+                "reference": "8a7ecad675253e4654ea05505233285377405215"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8a7ecad675253e4654ea05505233285377405215",
+                "reference": "8a7ecad675253e4654ea05505233285377405215",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8",
+                "psr/log": "^1.0",
+                "symfony/process": "^2.5 || ^3.0 || ^4.0 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\CaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
+            "keywords": [
+                "cabundle",
+                "cacert",
+                "certificate",
+                "ssl",
+                "tls"
+            ],
+            "time": "2020-08-23T12:54:47+00:00"
+        },
+        {
+            "name": "composer/composer",
+            "version": "1.10.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/composer.git",
+                "reference": "44508319d1e8819fdf538f112703056fa691d035"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/composer/zipball/44508319d1e8819fdf538f112703056fa691d035",
+                "reference": "44508319d1e8819fdf538f112703056fa691d035",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.0",
+                "composer/semver": "^1.0",
+                "composer/spdx-licenses": "^1.2",
+                "composer/xdebug-handler": "^1.1",
+                "justinrainbow/json-schema": "^5.2.10",
+                "php": "^5.3.2 || ^7.0",
+                "psr/log": "^1.0",
+                "seld/jsonlint": "^1.4",
+                "seld/phar-utils": "^1.0",
+                "symfony/console": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/filesystem": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/finder": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/process": "^2.7 || ^3.0 || ^4.0 || ^5.0"
+            },
+            "conflict": {
+                "symfony/console": "2.8.38"
+            },
+            "require-dev": {
+                "phpspec/prophecy": "^1.10",
+                "symfony/phpunit-bridge": "^4.2"
+            },
+            "suggest": {
+                "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
+                "ext-zip": "Enabling the zip extension allows you to unzip archives",
+                "ext-zlib": "Allow gzip compression of HTTP requests"
+            },
+            "bin": [
+                "bin/composer"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\": "src/Composer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Composer helps you declare, manage and install dependencies of PHP projects. It ensures you have the right stack everywhere.",
+            "homepage": "https://getcomposer.org/",
+            "keywords": [
+                "autoload",
+                "dependency",
+                "package"
+            ],
+            "time": "2020-09-09T09:46:28+00:00"
+        },
+        {
+            "name": "composer/semver",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/semver.git",
+                "reference": "114f819054a2ea7db03287f5efb757e2af6e4079"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/semver/zipball/114f819054a2ea7db03287f5efb757e2af6e4079",
+                "reference": "114f819054a2ea7db03287f5efb757e2af6e4079",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5 || ^5.0.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Semver\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "Semver library that offers utilities, version constraint parsing and validation.",
+            "keywords": [
+                "semantic",
+                "semver",
+                "validation",
+                "versioning"
+            ],
+            "time": "2020-09-09T09:34:06+00:00"
+        },
+        {
+            "name": "composer/spdx-licenses",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/spdx-licenses.git",
+                "reference": "50762ba801622d9514c5c6f1d1c28bfddd79dc14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/50762ba801622d9514c5c6f1d1c28bfddd79dc14",
+                "reference": "50762ba801622d9514c5c6f1d1c28bfddd79dc14",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Spdx\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "SPDX licenses list and validation library.",
+            "keywords": [
+                "license",
+                "spdx",
+                "validator"
+            ],
+            "time": "2020-08-10T09:16:00+00:00"
+        },
+        {
+            "name": "composer/xdebug-handler",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/xdebug-handler.git",
+                "reference": "ebd27a9866ae8254e873866f795491f02418c5a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ebd27a9866ae8254e873866f795491f02418c5a5",
+                "reference": "ebd27a9866ae8254e873866f795491f02418c5a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\XdebugHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Stevenson",
+                    "email": "john-stevenson@blueyonder.co.uk"
+                }
+            ],
+            "description": "Restarts a process without Xdebug.",
+            "keywords": [
+                "Xdebug",
+                "performance"
+            ],
+            "time": "2020-08-19T10:27:58+00:00"
+        },
+        {
+            "name": "eaglewu/swoole-ide-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wudi/swoole-ide-helper.git",
+                "reference": "e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wudi/swoole-ide-helper/zipball/e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497",
+                "reference": "e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "eagle",
+                    "email": "eaglewudi@gmail.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "Swoole IDE Helper, to improve auto-completion",
+            "keywords": [
+                "autocomplete",
+                "codeintel",
+                "helper",
+                "ide",
+                "netbeans",
+                "phpdoc",
+                "phpstorm",
+                "sublime",
+                "swoole"
+            ],
+            "time": "2020-07-14T13:36:33+00:00"
+        },
+        {
+            "name": "fig/http-message-util",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message-util.git",
+                "reference": "961814ef7d59864dfcd2281e2869ba83766b3580"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message-util/zipball/961814ef7d59864dfcd2281e2869ba83766b3580",
+                "reference": "961814ef7d59864dfcd2281e2869ba83766b3580",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0"
+            },
+            "suggest": {
+                "psr/http-message": "The package containing the PSR-7 interfaces"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fig\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Utility classes and constants for use with PSR-7 (psr/http-message)",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2020-09-18T06:44:34+00:00"
+        },
+        {
+            "name": "firebase/php-jwt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8 <=9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "keywords": [
+                "jwt",
+                "php"
+            ],
+            "time": "2020-03-25T18:49:23+00:00"
+        },
+        {
+            "name": "guzaba-platform/app-server-monitor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-app-server-monitor.git",
+                "reference": "2e602b4484a551383edba2100c994768e914daea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-app-server-monitor/zipball/2e602b4484a551383edba2100c994768e914daea",
+                "reference": "2e602b4484a551383edba2100c994768e914daea",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "composer/composer": "^1.9",
+                "php": ">=7.2.0"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\AppServer\\Monitor\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Application server (Swoole) monitor",
+            "homepage": "https://github.com/AzonMedia/component-app-server-monitor",
+            "keywords": [
+                "server monitor",
+                "swoole"
+            ],
+            "time": "2020-09-17T16:40:22+00:00"
+        },
+        {
+            "name": "guzaba-platform/assets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-assets.git",
+                "reference": "6e9b9a94c071f8fda484a160b74aac3d204e4a31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-assets/zipball/6e9b9a94c071f8fda484a160b74aac3d204e4a31",
+                "reference": "6e9b9a94c071f8fda484a160b74aac3d204e4a31",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/filesystem": "dev-master",
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Assets\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform digital assets management component",
+            "homepage": "https://github.com/AzonMedia/component-assets",
+            "keywords": [
+                "digital assets"
+            ],
+            "time": "2020-09-12T13:23:14+00:00"
+        },
+        {
+            "name": "guzaba-platform/catalog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-catalog.git",
+                "reference": "10dcfb4c86ba29d4ff6d85e8704d9d4ffda94813"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-catalog/zipball/10dcfb4c86ba29d4ff6d85e8704d9d4ffda94813",
+                "reference": "10dcfb4c86ba29d4ff6d85e8704d9d4ffda94813",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/catalog-base": "dev-master",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master",
+                "guzaba-platform/tags-base": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Catalog\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform Catalog component",
+            "homepage": "https://github.com/AzonMedia/component-catalog",
+            "keywords": [
+                "catalog",
+                "product catalog"
+            ],
+            "time": "2020-07-19T14:52:47+00:00"
+        },
+        {
+            "name": "guzaba-platform/catalog-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/module-catalog-base.git",
+                "reference": "86a9d45080c4ce4c575b98fe479e2142dc7f71ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/module-catalog-base/zipball/86a9d45080c4ce4c575b98fe479e2142dc7f71ed",
+                "reference": "86a9d45080c4ce4c575b98fe479e2142dc7f71ed",
+                "shasum": ""
+            },
+            "require": {
+                "guzaba-platform/tags-base": "dev-master",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Catalog\\Base\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Catalog interfaces",
+            "homepage": "https://github.com/AzonMedia/module-catalog-base",
+            "keywords": [
+                "catalog interfaces"
+            ],
+            "time": "2020-07-19T14:52:54+00:00"
+        },
+        {
+            "name": "guzaba-platform/classes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/components-classes.git",
+                "reference": "00d7ac3da5165ef880d9a6080014a1f0fe40b67f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/components-classes/zipball/00d7ac3da5165ef880d9a6080014a1f0fe40b67f",
+                "reference": "00d7ac3da5165ef880d9a6080014a1f0fe40b67f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Classes\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform classes component",
+            "homepage": "https://github.com/AzonMedia/component-classes",
+            "keywords": [
+                "crud"
+            ],
+            "time": "2020-08-14T15:01:17+00:00"
+        },
+        {
+            "name": "guzaba-platform/cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-cms.git",
+                "reference": "4ffb694eed27f7b62aef04a3f46b0d464a7c4d4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-cms/zipball/4ffb694eed27f7b62aef04a3f46b0d464a7c4d4b",
+                "reference": "4ffb694eed27f7b62aef04a3f46b0d464a7c4d4b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/crud": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/cms-tests": "dev-master"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Cms\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform CMS component",
+            "homepage": "https://github.com/AzonMedia/component-cms",
+            "keywords": [
+                "cms"
+            ],
+            "time": "2020-09-12T13:23:29+00:00"
+        },
+        {
+            "name": "guzaba-platform/components-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/module-components-base.git",
+                "reference": "00cb337151d0f2575ff64106247214a4efd61280"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/module-components-base/zipball/00cb337151d0f2575ff64106247214a4efd61280",
+                "reference": "00cb337151d0f2575ff64106247214a4efd61280",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "composer/composer": "^1.9",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Components\\Base\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Components interfaces",
+            "homepage": "https://github.com/AzonMedia/module-components-base",
+            "keywords": [
+                "components"
+            ],
+            "time": "2020-07-19T14:53:13+00:00"
+        },
+        {
+            "name": "guzaba-platform/controllers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-controllers.git",
+                "reference": "f3a8723bcb252eada316abd4c47331c838c6234c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-controllers/zipball/f3a8723bcb252eada316abd4c47331c838c6234c",
+                "reference": "f3a8723bcb252eada316abd4c47331c838c6234c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Controllers\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform controllers component",
+            "homepage": "https://github.com/AzonMedia/component-controllers",
+            "keywords": [
+                "crud"
+            ],
+            "time": "2020-07-19T14:53:21+00:00"
+        },
+        {
+            "name": "guzaba-platform/crud",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-crud.git",
+                "reference": "b1b154e2aa0c0c675a4680a312a4548cd949fc44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-crud/zipball/b1b154e2aa0c0c675a4680a312a4548cd949fc44",
+                "reference": "b1b154e2aa0c0c675a4680a312a4548cd949fc44",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Crud\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform CRUD component",
+            "homepage": "https://github.com/AzonMedia/component-crud",
+            "keywords": [
+                "crud"
+            ],
+            "time": "2020-07-19T14:53:29+00:00"
+        },
+        {
+            "name": "guzaba-platform/guzaba-platform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/guzaba-platform.git",
+                "reference": "372a9c92a37dcf404c41245e8ec8d582aef725a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/guzaba-platform/zipball/372a9c92a37dcf404c41245e8ec8d582aef725a2",
+                "reference": "372a9c92a37dcf404c41245e8ec8d582aef725a2",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/model-frontend-map": "dev-master",
+                "azonmedia/routes-map": "dev-master",
+                "azonmedia/vue-component-hooks": "dev-master",
+                "azonmedia/vue-router": "dev-master",
+                "composer/composer": "^1.10@dev",
+                "ext-json": "*",
+                "firebase/php-jwt": "dev-master",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master",
+                "guzaba/guzaba2": "dev-master",
+                "monolog/monolog": "^2.0@dev",
+                "psr/log": "^1.1",
+                "slim/psr7": "^1.1.0",
+                "symfony/console": "^5.0@dev",
+                "symfony/var-exporter": "^5.0@dev"
+            },
+            "require-dev": {
+                "azonmedia/php-codesniffer-azonmedia-coding-standard": "dev-master",
+                "codeception/codeception": "4.1.x-dev",
+                "codeception/module-asserts": "^1.0.0",
+                "codeception/module-phpbrowser": "^1.0.0",
+                "codeception/module-rest": "dev-master",
+                "guzaba-platform/guzaba-platform-tests": "dev-master",
+                "guzaba-platform/guzbaa-platform-docs": "dev-master",
+                "squizlabs/php_codesniffer": "3.*",
+                "vimeo/psalm": "^3.0@dev"
+            },
+            "suggest": {
+                "guzaba-platform/classes": "Provides permissions management for classes",
+                "guzaba-platform/controllers": "Provides permissions management for controllers",
+                "guzaba-platform/crud": "Provides for basic CRUD operations and permissions management on all object",
+                "guzaba-platform/request-caching": "Provides request caching and faster response in certain cases"
+            },
+            "type": "guzaba-platform",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Platform\\": "app/src/GuzabaPlatform/Platform/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A plugin based platform for creating applications",
+            "homepage": "https://github.com/AzonMedia/guzaba-platform",
+            "keywords": [
+                "GuzabaPlatform",
+                "application platform",
+                "plugin management"
+            ],
+            "time": "2020-09-17T17:51:43+00:00"
+        },
+        {
+            "name": "guzaba-platform/guzaba-platform-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/guzaba-platform-installer.git",
+                "reference": "b660fcdce1045cff50d283ef6cdf0d6482904d77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/guzaba-platform-installer/zipball/b660fcdce1045cff50d283ef6cdf0d6482904d77",
+                "reference": "b660fcdce1045cff50d283ef6cdf0d6482904d77",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "GuzabaPlatform\\Installer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Installer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform installer",
+            "homepage": "https://github.com/AzonMedia/guzaba-platform-installer",
+            "keywords": [
+                "installer"
+            ],
+            "time": "2020-07-19T14:53:47+00:00"
+        },
+        {
+            "name": "guzaba-platform/navigation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-navigation.git",
+                "reference": "203cc6a9b4553d64ded5ad223f6655cdccdb1c50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-navigation/zipball/203cc6a9b4553d64ded5ad223f6655cdccdb1c50",
+                "reference": "203cc6a9b4553d64ded5ad223f6655cdccdb1c50",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Navigation\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Navigation management component for GuzabaPlatform",
+            "homepage": "https://github.com/AzonMedia/component-navigation",
+            "keywords": [
+                "Twitter login"
+            ],
+            "time": "2020-09-12T19:52:47+00:00"
+        },
+        {
+            "name": "guzaba-platform/request-caching",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-request-caching.git",
+                "reference": "beb7d98d5aa3137eb9e0765cb9bbd8425386af9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-request-caching/zipball/beb7d98d5aa3137eb9e0765cb9bbd8425386af9e",
+                "reference": "beb7d98d5aa3137eb9e0765cb9bbd8425386af9e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\RequestCaching\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform Request Caching component",
+            "homepage": "https://github.com/AzonMedia/component-request-caching",
+            "keywords": [
+                "Request caching"
+            ],
+            "time": "2020-07-19T14:54:03+00:00"
+        },
+        {
+            "name": "guzaba-platform/roles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-roles.git",
+                "reference": "3031d04f482055ede16b2780b8db2114cd56af5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-roles/zipball/3031d04f482055ede16b2780b8db2114cd56af5e",
+                "reference": "3031d04f482055ede16b2780b8db2114cd56af5e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Roles\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform Role management component",
+            "homepage": "https://github.com/AzonMedia/component-roles",
+            "keywords": [
+                "Role Management"
+            ],
+            "time": "2020-07-19T14:54:37+00:00"
+        },
+        {
+            "name": "guzaba-platform/tags-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/module-tags-base.git",
+                "reference": "9053be09bc5898026fb4472452ff4abc06df2c55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/module-tags-base/zipball/9053be09bc5898026fb4472452ff4abc06df2c55",
+                "reference": "9053be09bc5898026fb4472452ff4abc06df2c55",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Tags\\Base\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tags interfaces",
+            "homepage": "https://github.com/AzonMedia/module-tags-base",
+            "keywords": [
+                "tags interfaces"
+            ],
+            "time": "2020-07-19T14:54:51+00:00"
+        },
+        {
+            "name": "guzaba-platform/users",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/component-users.git",
+                "reference": "96a67ad6fd66459054c0d8e1c04bffcb9ed59bc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/component-users/zipball/96a67ad6fd66459054c0d8e1c04bffcb9ed59bc0",
+                "reference": "96a67ad6fd66459054c0d8e1c04bffcb9ed59bc0",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "guzaba-platform/components-base": "dev-master",
+                "guzaba-platform/guzaba-platform": "dev-master",
+                "guzaba-platform/guzaba-platform-installer": "dev-master"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "guzaba-platform-component",
+            "autoload": {
+                "psr-4": {
+                    "GuzabaPlatform\\Users\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GuzabaPlatform User management component",
+            "homepage": "https://github.com/AzonMedia/component-users",
+            "keywords": [
+                "User management"
+            ],
+            "time": "2020-09-17T16:39:07+00:00"
+        },
+        {
+            "name": "guzaba/guzaba2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzonMedia/guzaba2.git",
+                "reference": "e3e2fab5b20b14a187bb74945e5208069caed73e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzonMedia/guzaba2/zipball/e3e2fab5b20b14a187bb74945e5208069caed73e",
+                "reference": "e3e2fab5b20b14a187bb74945e5208069caed73e",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/apm": "dev-master",
+                "azonmedia/debug": "dev-master",
+                "azonmedia/di": "dev-master",
+                "azonmedia/exceptions": "dev-master",
+                "azonmedia/http": "dev-master",
+                "azonmedia/lock": "dev-master",
+                "azonmedia/patterns": "dev-master",
+                "azonmedia/psr-to-swoole": "dev-master",
+                "azonmedia/reflection": "dev-master",
+                "azonmedia/registry": "dev-master",
+                "azonmedia/routing": "dev-master",
+                "azonmedia/swoole-to-psr": "dev-master",
+                "azonmedia/transaction": "dev-master",
+                "azonmedia/url-rewriting": "dev-master",
+                "azonmedia/utilities": "dev-master",
+                "azonmedia/watchdog": "dev-master",
+                "jbzoo/utils": "^2.3",
+                "psr/cache": "^1.0",
+                "psr/http-message": "^1.0",
+                "psr/http-server-middleware": "^1.0",
+                "psr/log": "^1.1",
+                "ramsey/uuid": "^3.8",
+                "symfony/cache": "^5.0"
+            },
+            "require-dev": {
+                "azonmedia/php-codesniffer-azonmedia-coding-standard": "dev-master",
+                "codeception/codeception": "4.1.x-dev",
+                "codeception/module-asserts": "^1.0.0",
+                "codeception/module-phpbrowser": "^1.0.0",
+                "codeception/module-rest": "dev-master",
+                "eaglewu/swoole-ide-helper": "dev-master",
+                "friendsofphp/php-cs-fixer": "^2.15",
+                "phpstan/phpstan": "^0.11.15",
+                "squizlabs/php_codesniffer": "3.*",
+                "vimeo/psalm": "^3.0@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Guzaba2/Kernel/Kernel.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@azonmedia.com",
+                    "homepage": "http://azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Framework for swoole",
+            "homepage": "https://github.com/AzonMedia/guzaba2",
+            "keywords": [
+                "framework",
+                "swoole"
+            ],
+            "time": "2020-09-17T19:02:57+00:00"
+        },
+        {
+            "name": "jbzoo/data",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBZoo/Data.git",
+                "reference": "1e1238e915b942b4147ea8746760423f3cbdf20b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBZoo/Data/zipball/1e1238e915b942b4147ea8746760423f3cbdf20b",
+                "reference": "1e1238e915b942b4147ea8746760423f3cbdf20b",
+                "shasum": ""
+            },
+            "require": {
+                "jbzoo/utils": "^2.2.1",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "jbzoo/phpunit": "^2.2.1",
+                "jbzoo/profiler": "^1.0.5",
+                "satooshi/php-coveralls": "^1.0.2",
+                "symfony/yaml": "^3.3.13"
+            },
+            "suggest": {
+                "symfony/yaml": "^3.3.13"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "JBZoo\\Data\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SmetDenis",
+                    "email": "denis@jbzoo.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "Extended implementation of ArrayObject",
+            "keywords": [
+                "array",
+                "arrayobject",
+                "config",
+                "data",
+                "ini",
+                "json",
+                "params",
+                "yml"
+            ],
+            "time": "2018-12-03T16:32:55+00:00"
+        },
+        {
+            "name": "jbzoo/utils",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBZoo/Utils.git",
+                "reference": "549ca27f7ced373afe0bf1847579656c730ea702"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBZoo/Utils/zipball/549ca27f7ced373afe0bf1847579656c730ea702",
+                "reference": "549ca27f7ced373afe0bf1847579656c730ea702",
+                "shasum": ""
+            },
+            "require": {
+                "jbzoo/data": "^1.6|^2.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "jbzoo/phpunit": "^2.2",
+                "jbzoo/profiler": "^1.0",
+                "php-coveralls/php-coveralls": "^2.1",
+                "symfony/polyfill-mbstring": "^1.10",
+                "symfony/process": "^3.3|^4.1"
+            },
+            "suggest": {
+                "ext-mbstring": "Provides multibyte specific string functions",
+                "symfony/polyfill-mbstring": "For UTF-8 if ext-mbstring disabled",
+                "symfony/process": "For Cli::exec() method only"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/defines.php"
+                ],
+                "psr-4": {
+                    "JBZoo\\Utils\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SmetDenis",
+                    "email": "denis@jbzoo.com",
+                    "role": "lead"
+                },
+                {
+                    "name": "Brandon Wamboldt",
+                    "email": "brandon.wamboldt@gmail.com"
+                },
+                {
+                    "name": "Luís Nóbrega",
+                    "email": "luis.barros.nobrega@gmail.com"
+                }
+            ],
+            "description": "A collection of useful PHP functions, mini classes and snippets that you need every day.",
+            "keywords": [
+                "array",
+                "cli",
+                "collection",
+                "command line",
+                "dates",
+                "email",
+                "env",
+                "environment",
+                "filesystem",
+                "filter",
+                "helper",
+                "helpers",
+                "http",
+                "image",
+                "mbstring",
+                "misc",
+                "serialize",
+                "slugify",
+                "string",
+                "timer",
+                "url",
+                "utility",
+                "utils"
+            ],
+            "time": "2019-11-21T09:34:54+00:00"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
+                "json-schema/json-schema-test-suite": "1.2.0",
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "bin": [
+                "bin/validate-json"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Prieto Reis",
+                    "email": "bruno.p.reis@gmail.com"
+                },
+                {
+                    "name": "Justin Rainbow",
+                    "email": "justin.rainbow@gmail.com"
+                },
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Robert Schönthal",
+                    "email": "seroscho@googlemail.com"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/justinrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "time": "2020-05-27T16:41:55+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "bbe10b1e28aedde9a28bf7b7cedea622ddddc3ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bbe10b1e28aedde9a28bf7b7cedea622ddddc3ba",
+                "reference": "bbe10b1e28aedde9a28bf7b7cedea622ddddc3ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2",
+                "psr/log": "^1.0.1"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "elasticsearch/elasticsearch": "^6.0",
+                "graylog2/gelf-php": "^1.4.2",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "php-parallel-lint/php-parallel-lint": "^1.0",
+                "phpspec/prophecy": "^1.6.1",
+                "phpunit/phpunit": "^8.5",
+                "predis/predis": "^1.1",
+                "rollbar/rollbar": "^1.3",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mbstring": "Allow to work properly with unicode symbols",
+                "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2020-08-23T11:42:45+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v9.99.99",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "polyfill",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2018-07-02T15:55:56+00:00"
+        },
+        {
+            "name": "psr/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "b9aa2cd4dd36cec02779bee07ee9dab8bd2d07d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/b9aa2cd4dd36cec02779bee07ee9dab8bd2d07d7",
+                "reference": "b9aa2cd4dd36cec02779bee07ee9dab8bd2d07d7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for caching libraries",
+            "keywords": [
+                "cache",
+                "psr",
+                "psr-6"
+            ],
+            "time": "2019-10-04T14:04:41+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b1fbdff230c2fae8b3e600ead18e711563f05a04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b1fbdff230c2fae8b3e600ead18e711563f05a04",
+                "reference": "b1fbdff230c2fae8b3e600ead18e711563f05a04",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2020-09-18T06:44:01+00:00"
+        },
+        {
+            "name": "psr/http-factory",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-factory.git",
+                "reference": "36fa03d50ff82abcae81860bdaf4ed9a1510c7cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/36fa03d50ff82abcae81860bdaf4ed9a1510c7cd",
+                "reference": "36fa03d50ff82abcae81860bdaf4ed9a1510c7cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for PSR-7 HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2020-09-17T16:52:55+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
+                "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2019-08-29T13:16:46+00:00"
+        },
+        {
+            "name": "psr/http-server-handler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-handler.git",
+                "reference": "cada5cd1c6a9871031e07f26d0f7b08c9de19039"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/cada5cd1c6a9871031e07f26d0f7b08c9de19039",
+                "reference": "cada5cd1c6a9871031e07f26d0f7b08c9de19039",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side request handler",
+            "keywords": [
+                "handler",
+                "http",
+                "http-interop",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response",
+                "server"
+            ],
+            "time": "2020-09-17T16:52:43+00:00"
+        },
+        {
+            "name": "psr/http-server-middleware",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-middleware.git",
+                "reference": "adcb26d2fb28018fea3319d0035e46e8d08eb8c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/adcb26d2fb28018fea3319d0035e46e8d08eb8c8",
+                "reference": "adcb26d2fb28018fea3319d0035e46e8d08eb8c8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0",
+                "psr/http-server-handler": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side middleware",
+            "keywords": [
+                "http",
+                "http-interop",
+                "middleware",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2020-09-17T16:41:19+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/dd738d0b4491f32725492cf345f6b501f5922fec",
+                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2020-09-18T06:44:51+00:00"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "ramsey/uuid",
+            "version": "3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/uuid.git",
+                "reference": "7e1633a6964b48589b142d60542f9ed31bd37a92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/7e1633a6964b48589b142d60542f9ed31bd37a92",
+                "reference": "7e1633a6964b48589b142d60542f9ed31bd37a92",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "paragonie/random_compat": "^1 | ^2 | 9.99.99",
+                "php": "^5.4 | ^7 | ^8",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "replace": {
+                "rhumsaa/uuid": "self.version"
+            },
+            "require-dev": {
+                "codeception/aspect-mock": "^1 | ^2",
+                "doctrine/annotations": "^1.2",
+                "goaop/framework": "1.0.0-alpha.2 | ^1 | ^2.1",
+                "jakub-onderka/php-parallel-lint": "^1",
+                "mockery/mockery": "^0.9.11 | ^1",
+                "moontoast/math": "^1.1",
+                "paragonie/random-lib": "^2",
+                "php-mock/php-mock-phpunit": "^0.3 | ^1.1",
+                "phpunit/phpunit": "^4.8 | ^5.4 | ^6.5",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "suggest": {
+                "ext-ctype": "Provides support for PHP Ctype functions",
+                "ext-libsodium": "Provides the PECL libsodium extension for use with the SodiumRandomGenerator",
+                "ext-openssl": "Provides the OpenSSL extension for use with the OpenSslGenerator",
+                "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
+                "moontoast/math": "Provides support for converting UUID to 128-bit integer (in string form).",
+                "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
+                "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid",
+                "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ramsey\\Uuid\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                },
+                {
+                    "name": "Marijn Huizendveld",
+                    "email": "marijn.huizendveld@gmail.com"
+                },
+                {
+                    "name": "Thibaud Fabre",
+                    "email": "thibaud@aztech.io"
+                }
+            ],
+            "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
+            "homepage": "https://github.com/ramsey/uuid",
+            "keywords": [
+                "guid",
+                "identifier",
+                "uuid"
+            ],
+            "time": "2020-02-21T04:36:14+00:00"
+        },
+        {
+            "name": "seld/jsonlint",
+            "version": "1.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/jsonlint.git",
+                "reference": "590cfec960b77fd55e39b7d9246659e95dd6d337"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/590cfec960b77fd55e39b7d9246659e95dd6d337",
+                "reference": "590cfec960b77fd55e39b7d9246659e95dd6d337",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "time": "2020-08-25T06:56:57+00:00"
+        },
+        {
+            "name": "seld/phar-utils",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/phar-utils.git",
+                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
+                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Seld\\PharUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be"
+                }
+            ],
+            "description": "PHAR file format utilities, for when PHP phars you up",
+            "keywords": [
+                "phar"
+            ],
+            "time": "2020-07-07T18:42:57+00:00"
+        },
+        {
+            "name": "slim/psr7",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/Slim-Psr7.git",
+                "reference": "832912cb3c2a807d472ef0ac392552e85703a667"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/Slim-Psr7/zipball/832912cb3c2a807d472ef0ac392552e85703a667",
+                "reference": "832912cb3c2a807d472ef0ac392552e85703a667",
+                "shasum": ""
+            },
+            "require": {
+                "fig/http-message-util": "^1.1.4",
+                "php": "^7.2",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0",
+                "ralouphie/getallheaders": "^3"
+            },
+            "provide": {
+                "psr/http-factory-implementation": "1.0",
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "adriansuter/php-autoload-override": "^1.2",
+                "ext-json": "*",
+                "http-interop/http-factory-tests": "^0.6.0",
+                "php-http/psr7-integration-tests": "dev-master",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^8.5",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\Psr7\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "hello@joshlockhart.com",
+                    "homepage": "http://joshlockhart.com"
+                },
+                {
+                    "name": "Andrew Smith",
+                    "email": "a.smith@silentworks.co.uk",
+                    "homepage": "http://silentworks.co.uk"
+                },
+                {
+                    "name": "Rob Allen",
+                    "email": "rob@akrabat.com",
+                    "homepage": "http://akrabat.com"
+                },
+                {
+                    "name": "Pierre Berube",
+                    "email": "pierre@lgse.com",
+                    "homepage": "http://www.lgse.com"
+                }
+            ],
+            "description": "Strict PSR-7 implementation",
+            "homepage": "https://www.slimframework.com",
+            "keywords": [
+                "http",
+                "psr-7",
+                "psr7"
+            ],
+            "time": "2020-08-18T22:49:11+00:00"
+        },
+        {
+            "name": "symfony/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/cache.git",
+                "reference": "0c80585461c2f091c597f54286e07fb2a59296c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/0c80585461c2f091c597f54286e07fb2a59296c4",
+                "reference": "0c80585461c2f091c597f54286e07fb2a59296c4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/cache": "~1.0",
+                "psr/log": "^1.1",
+                "symfony/cache-contracts": "^1.1.7|^2",
+                "symfony/polyfill-php80": "^1.15",
+                "symfony/service-contracts": "^1.1|^2",
+                "symfony/var-exporter": "^4.4|^5.0"
+            },
+            "conflict": {
+                "doctrine/dbal": "<2.10",
+                "symfony/dependency-injection": "<4.4",
+                "symfony/http-kernel": "<4.4",
+                "symfony/var-dumper": "<4.4"
+            },
+            "provide": {
+                "psr/cache-implementation": "1.0",
+                "psr/simple-cache-implementation": "1.0",
+                "symfony/cache-implementation": "1.0"
+            },
+            "require-dev": {
+                "cache/integration-tests": "dev-master",
+                "doctrine/cache": "^1.6",
+                "doctrine/dbal": "^2.10|^3.0",
+                "predis/predis": "^1.1",
+                "psr/simple-cache": "^1.0",
+                "symfony/config": "^4.4|^5.0",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/filesystem": "^4.4|^5.0",
+                "symfony/messenger": "^4.4|^5.0",
+                "symfony/var-dumper": "^4.4|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Cache\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Cache component with PSR-6, PSR-16, and tags",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "caching",
+                "psr6"
+            ],
+            "time": "2020-09-12T05:07:36+00:00"
+        },
+        {
+            "name": "symfony/cache-contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/cache-contracts.git",
+                "reference": "8034ca0b61d4dd967f3698aaa1da2507b631d0cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/8034ca0b61d4dd967f3698aaa1da2507b631d0cb",
+                "reference": "8034ca0b61d4dd967f3698aaa1da2507b631d0cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/cache": "^1.0"
+            },
+            "suggest": {
+                "symfony/cache-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Cache\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to caching",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2020-09-07T11:33:47+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "8f67de03e7a717137a443b438260351d67072210"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8f67de03e7a717137a443b438260351d67072210",
+                "reference": "8f67de03e7a717137a443b438260351d67072210",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php73": "^1.8",
+                "symfony/polyfill-php80": "^1.15",
+                "symfony/service-contracts": "^1.1|^2",
+                "symfony/string": "^5.1"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<4.4",
+                "symfony/dotenv": "<5.1",
+                "symfony/event-dispatcher": "<4.4",
+                "symfony/lock": "<4.4",
+                "symfony/process": "<4.4"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "^4.4|^5.0",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/event-dispatcher": "^4.4|^5.0",
+                "symfony/lock": "^4.4|^5.0",
+                "symfony/process": "^4.4|^5.0",
+                "symfony/var-dumper": "^4.4|^5.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/lock": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "cli",
+                "command line",
+                "console",
+                "terminal"
+            ],
+            "time": "2020-09-09T12:41:49+00:00"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "73a3c793782c75dce5a2e7e0c533e9199564a7b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/73a3c793782c75dce5a2e7e0c533e9199564a7b3",
+                "reference": "73a3c793782c75dce5a2e7e0c533e9199564a7b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2020-09-02T16:27:44+00:00"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "b5f7c0d069d8517c994f1dc0e9c100257d7effd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/b5f7c0d069d8517c994f1dc0e9c100257d7effd9",
+                "reference": "b5f7c0d069d8517c994f1dc0e9c100257d7effd9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2020-09-02T16:27:44+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "symfony/polyfill-intl-grapheme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+                "reference": "b740103edbdcc39602239ee8860f0f45a8eb9aa5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b740103edbdcc39602239ee8860f0f45a8eb9aa5",
+                "reference": "b740103edbdcc39602239ee8860f0f45a8eb9aa5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's grapheme_* functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "grapheme",
+                "intl",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "symfony/polyfill-intl-normalizer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+                "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
+                "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's Normalizer class and related functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "intl",
+                "normalizer",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "48928d471ede0548b399f54b0286fe0d0ed79267"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/48928d471ede0548b399f54b0286fe0d0ed79267",
+                "reference": "48928d471ede0548b399f54b0286fe0d0ed79267",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-09-14T11:01:58+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php73",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
+                "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "c3616e7b303d0bd8c261de7921c72bf818b52b91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/c3616e7b303d0bd8c261de7921c72bf818b52b91",
+                "reference": "c3616e7b303d0bd8c261de7921c72bf818b52b91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-09-14T10:02:33+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "6beca1cfc85d432ba66be4233ffb9ce4386ce85c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/6beca1cfc85d432ba66be4233ffb9ce4386ce85c",
+                "reference": "6beca1cfc85d432ba66be4233ffb9ce4386ce85c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.15"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2020-09-08T13:25:06+00:00"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/d15da7ba4957ffb8f1747218be9e1a121fd298a1",
+                "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/container": "^1.0"
+            },
+            "suggest": {
+                "symfony/service-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Service\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to writing services",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2020-09-07T11:33:47+00:00"
+        },
+        {
+            "name": "symfony/string",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/string.git",
+                "reference": "0ebd63de9f7e874e428e26cb22de991833f5969f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/string/zipball/0ebd63de9f7e874e428e26cb22de991833f5969f",
+                "reference": "0ebd63de9f7e874e428e26cb22de991833f5969f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-intl-grapheme": "~1.0",
+                "symfony/polyfill-intl-normalizer": "~1.0",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "~1.15"
+            },
+            "require-dev": {
+                "symfony/error-handler": "^4.4|^5.0",
+                "symfony/http-client": "^4.4|^5.0",
+                "symfony/translation-contracts": "^1.1|^2",
+                "symfony/var-exporter": "^4.4|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\String\\": ""
+                },
+                "files": [
+                    "Resources/functions.php"
+                ],
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony String component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "grapheme",
+                "i18n",
+                "string",
+                "unicode",
+                "utf-8",
+                "utf8"
+            ],
+            "time": "2020-09-17T07:22:48+00:00"
+        },
+        {
+            "name": "symfony/var-exporter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-exporter.git",
+                "reference": "ed7dbeac9598119ffce68122bec052d19a77412e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/ed7dbeac9598119ffce68122bec052d19a77412e",
+                "reference": "ed7dbeac9598119ffce68122bec052d19a77412e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.15"
+            },
+            "require-dev": {
+                "symfony/var-dumper": "^4.4.9|^5.0.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\VarExporter\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A blend of var_export() + serialize() to turn any serializable data structure to plain PHP code",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "clone",
+                "construct",
+                "export",
+                "hydrate",
+                "instantiate",
+                "serialize"
+            ],
+            "time": "2020-09-08T14:20:09+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "4.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "55f2c0022d31dde2ede2d653d30115853e96920b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/55f2c0022d31dde2ede2d653d30115853e96920b",
+                "reference": "55f2c0022d31dde2ede2d653d30115853e96920b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<3.4"
+            },
+            "require-dev": {
+                "symfony/console": "^3.4|^4.0|^5.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2020-09-18T13:54:02+00:00"
+        },
+        {
+            "name": "tivie/htaccess-parser",
+            "version": "0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tivie/php-htaccess-parser.git",
+                "reference": "36d89eeaa45c215a45e315765d7b64b333f5f8d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tivie/php-htaccess-parser/zipball/36d89eeaa45c215a45e315765d7b64b333f5f8d5",
+                "reference": "36d89eeaa45c215a45e315765d7b64b333f5f8d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.8.1",
+                "phpunit/phpunit": "4.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tivie\\HtaccessParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Estevão Soares dos Santos",
+                    "email": "estevao@soares-dos-santos.com"
+                }
+            ],
+            "description": "A .htaccess parser and validator implemented in PHP",
+            "homepage": "https://github.com/tivie/php-htaccess-parser",
+            "keywords": [
+                ".htaccess",
+                "htaccess"
+            ],
+            "time": "2017-10-21T03:19:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "guzaba-platform/guzaba-platform-installer": 20,
+        "guzaba-platform/guzaba-platform": 20,
+        "guzaba-platform/classes": 20,
+        "guzaba-platform/controllers": 20,
+        "guzaba-platform/navigation": 20,
+        "guzaba-platform/assets": 20,
+        "guzaba-platform/users": 20,
+        "guzaba-platform/roles": 20,
+        "guzaba-platform/cms": 20,
+        "guzaba-platform/app-server-monitor": 20,
+        "guzaba-platform/catalog": 20,
+        "guzaba-platform/crud": 20,
+        "guzaba-platform/request-caching": 20,
+        "azonmedia/routes-map": 20,
+        "azonmedia/model-frontend-map": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
