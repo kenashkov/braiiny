@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1921b89595d33eef26a8ab5553de09db",
+    "content-hash": "3308befbbdf08898eb27b12e067e5b3b",
     "packages": [
         {
             "name": "azonmedia/apm",
@@ -2612,6 +2612,95 @@
             "time": "2020-05-27T16:41:55+00:00"
         },
         {
+            "name": "kenashkov/billy-dk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenashkov/billy-dk.git",
+                "reference": "0d0627565567ac2e2f52a5ab7b36aa1b07a611fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenashkov/billy-dk/zipball/0d0627565567ac2e2f52a5ab7b36aa1b07a611fc",
+                "reference": "0d0627565567ac2e2f52a5ab7b36aa1b07a611fc",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "composer/composer": "^1.9",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kenashkov\\BillyDk\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@gmail.com",
+                    "homepage": "http://vesko.blogs.azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Billy.dk sdk",
+            "homepage": "https://github.com/kenashkov/billy-dk",
+            "keywords": [
+                "billy.dk",
+                "sdk"
+            ],
+            "time": "2020-09-19T09:46:49+00:00"
+        },
+        {
+            "name": "kenashkov/braiiny-products",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenashkov/braiiny-products.git",
+                "reference": "9bd32ade428953d2c83ed6674f9ff932f982b881"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenashkov/braiiny-products/zipball/9bd32ade428953d2c83ed6674f9ff932f982b881",
+                "reference": "9bd32ade428953d2c83ed6674f9ff932f982b881",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "composer/composer": "^1.9",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kenashkov\\Braiiny\\Products\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@gmail.com",
+                    "homepage": "http://vesko.blogs.azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Products",
+            "homepage": "https://github.com/kenashkov/braiiny-products",
+            "keywords": [
+                "products"
+            ],
+            "time": "2020-09-19T09:43:58+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "dev-master",
             "source": {
@@ -4461,7 +4550,9 @@
         "guzaba-platform/crud": 20,
         "guzaba-platform/request-caching": 20,
         "azonmedia/routes-map": 20,
-        "azonmedia/model-frontend-map": 20
+        "azonmedia/model-frontend-map": 20,
+        "kenashkov/braiiny-products": 20,
+        "kenashkov/billy-dk": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

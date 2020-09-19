@@ -4,8 +4,8 @@
     "authors": [
         {
             "name": "Vesko Kenashkov",
-            "email": "kenashkov@azonmedia.com",
-            "homepage": "http://azonmedia.com",
+            "email": "kenashkov@gmail.com",
+            "homepage": "http://vesko.blogs.azonmedia.com",
             "role": "Developer"
         }
     ],
@@ -24,7 +24,9 @@
         "guzaba-platform/crud": "dev-master",
         "guzaba-platform/request-caching": "dev-master",
         "azonmedia/routes-map": "dev-master",
-        "azonmedia/model-frontend-map": "dev-master"
+        "azonmedia/model-frontend-map": "dev-master",
+        "kenashkov/braiiny-products": "dev-master",
+        "kenashkov/billy-dk": "dev-master"
     },
     "autoload": {
         "psr-4": {
