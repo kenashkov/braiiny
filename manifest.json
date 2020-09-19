@@ -99,6 +99,150 @@
             "src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products/app/src/",
             "public_src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products/app/public_src",
             "installed_time": 1600519644
+        },
+        {
+            "name": "guzaba-platform/guzaba-platform-tests",
+            "namespace": "GuzabaPlatform\\Tests",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform-tests",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform-tests/app/src/",
+            "public_src_dir": false,
+            "installed_time": 1600538498
+        },
+        {
+            "name": "kenashkov/billy-dk-test",
+            "namespace": "Kenashkov\\BillyDk\\Tests",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/billy-dk-test",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/billy-dk-test/app/src/",
+            "public_src_dir": false,
+            "installed_time": 1600538501
+        },
+        {
+            "name": "kenashkov/braiiny-products-test",
+            "namespace": "Kenashkov\\Braiiny\\Products\\Tests",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products-test",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products-test/app/src/",
+            "public_src_dir": false,
+            "installed_time": 1600538913
+        },
+        {
+            "name": "guzaba-platform/app-server-monitor",
+            "namespace": "GuzabaPlatform\\AppServer\\Monitor",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/app-server-monitor",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/app-server-monitor/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/app-server-monitor/app/public_src",
+            "installed_time": 1600539033
+        },
+        {
+            "name": "guzaba-platform/guzaba-platform",
+            "namespace": "GuzabaPlatform\\Platform",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform/app/src/GuzabaPlatform/Platform/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform/app/public_src",
+            "installed_time": 1600539090
+        },
+        {
+            "name": "guzaba-platform/assets",
+            "namespace": "GuzabaPlatform\\Assets",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/assets",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/assets/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/assets/app/public_src",
+            "installed_time": 1600539093
+        },
+        {
+            "name": "guzaba-platform/catalog",
+            "namespace": "GuzabaPlatform\\Catalog",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/public_src",
+            "installed_time": 1600539097
+        },
+        {
+            "name": "guzaba-platform/classes",
+            "namespace": "GuzabaPlatform\\Classes",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/classes",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/classes/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/classes/app/public_src",
+            "installed_time": 1600539098
+        },
+        {
+            "name": "guzaba-platform/controllers",
+            "namespace": "GuzabaPlatform\\Controllers",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/controllers",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/controllers/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/controllers/app/public_src",
+            "installed_time": 1600539099
+        },
+        {
+            "name": "guzaba-platform/crud",
+            "namespace": "GuzabaPlatform\\Crud",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/crud",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/crud/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/crud/app/public_src",
+            "installed_time": 1600539102
+        },
+        {
+            "name": "guzaba-platform/navigation",
+            "namespace": "GuzabaPlatform\\Navigation",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/navigation",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/navigation/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/navigation/app/public_src",
+            "installed_time": 1600539104
+        },
+        {
+            "name": "guzaba-platform/roles",
+            "namespace": "GuzabaPlatform\\Roles",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/roles",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/roles/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/roles/app/public_src",
+            "installed_time": 1600539105
+        },
+        {
+            "name": "guzaba-platform/users",
+            "namespace": "GuzabaPlatform\\Users",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/users",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/users/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/users/app/public_src",
+            "installed_time": 1600539106
+        },
+        {
+            "name": "kenashkov/braiiny-products",
+            "namespace": "Kenashkov\\Braiiny\\Products",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products/app/public_src",
+            "installed_time": 1600539108
+        },
+        {
+            "name": "guzaba-platform/guzaba-platform-tests",
+            "namespace": "GuzabaPlatform\\Tests",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform-tests",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/guzaba-platform-tests/app/src/",
+            "public_src_dir": false,
+            "installed_time": 1600539115
+        },
+        {
+            "name": "guzaba-platform/cms",
+            "namespace": "GuzabaPlatform\\Cms",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/cms",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/cms/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/cms/app/public_src",
+            "installed_time": 1600539116
+        },
+        {
+            "name": "kenashkov/billy-dk-test",
+            "namespace": "Kenashkov\\BillyDk\\Tests",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/billy-dk-test",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/billy-dk-test/app/src/",
+            "public_src_dir": false,
+            "installed_time": 1600539136
+        },
+        {
+            "name": "kenashkov/braiiny-products-test",
+            "namespace": "Kenashkov\\Braiiny\\Products\\Tests",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products-test",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products-test/app/src/",
+            "public_src_dir": false,
+            "installed_time": 1600539136
         }
     ]
 }

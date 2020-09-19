@@ -27,23 +27,40 @@ BANNER;
 $start_time = time();
 chdir('../../');
 $codecept = getcwd().'/vendor/bin/codecept';
-$files = trim(`find ./vendor/guzaba-platform -name "codeception.yml"`);
+
+$all_files = [];
+//do not run the GP ones
+//$files = trim(`find ./vendor/guzaba-platform -name "codeception.yml"`);
+//$files = explode(PHP_EOL, $files);
+//$all_files = [...$all_files, ...$files];
+
+$files = trim(`find ./vendor/kenashkov -name "codeception.yml"`);
 $files = explode(PHP_EOL, $files);
+$all_files = [...$all_files, ...$files];
+
+
 $dirs = [];
-foreach ($files as $file) {
+foreach ($all_files as $file) {
     $dirs[] = realpath(getcwd().'/'.dirname($file));
 }
 
+
 $failed_dirs = [];
-//print_r($dirs);
+
 foreach ($dirs as $dir) {
     if (file_exists($dir)) {
+        printf('===================================================================================='.PHP_EOL);
+        printf('Running tests in %s'.PHP_EOL, $dir);
+        printf('===================================================================================='.PHP_EOL);
+        print PHP_EOL;
         chdir($dir);
         $command = "{$codecept} run";
         passthru($command, $exit_code);
         if ($exit_code !== 0) {
             $failed_dirs[] = $dir;
         }
+        print PHP_EOL;
+        print PHP_EOL;
     }
 }
 

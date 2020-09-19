@@ -31,5 +31,13 @@
         "psr-4": {
             "Kenashkov\\Braiiny\\": "app/src/"
         }
+    },
+    "require-dev": {
+        "codeception/codeception": "4.1.x-dev",
+        "kenashkov/billy-dk-test": "dev-master",
+        "kenashkov/braiiny-products-test": "dev-master",
+        "codeception/module-phpbrowser": "dev-master",
+        "codeception/module-rest": "dev-master",
+        "codeception/module-asserts": "dev-master"
     }
 }
