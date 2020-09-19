@@ -1,0 +1,34 @@
+{
+    "homepage": "https://github.com/Kenashkov/braiiny",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Vesko Kenashkov",
+            "email": "kenashkov@azonmedia.com",
+            "homepage": "http://azonmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzaba-platform/guzaba-platform-installer": "dev-master",
+        "guzaba-platform/guzaba-platform": "dev-master",
+        "guzaba-platform/classes": "dev-master",
+        "guzaba-platform/controllers": "dev-master",
+        "guzaba-platform/navigation": "dev-master",
+        "guzaba-platform/assets": "dev-master",
+        "guzaba-platform/users": "dev-master",
+        "guzaba-platform/roles": "dev-master",
+        "guzaba-platform/cms": "dev-master",
+        "guzaba-platform/app-server-monitor": "dev-master",
+        "guzaba-platform/catalog": "dev-master",
+        "guzaba-platform/crud": "dev-master",
+        "guzaba-platform/request-caching": "dev-master",
+        "azonmedia/routes-map": "dev-master",
+        "azonmedia/model-frontend-map": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kenashkov\\Braiiny\\": "app/src/"
+        }
+    }
+}
