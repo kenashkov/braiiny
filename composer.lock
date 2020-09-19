@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "061ad0a4b86eb5cab7370bcb68b7985a",
+    "content-hash": "0586ddb28ac2ac2a080af44288cf0a1b",
     "packages": [
         {
             "name": "azonmedia/apm",
@@ -2614,12 +2614,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kenashkov/braiiny-products.git",
-                "reference": "9bd32ade428953d2c83ed6674f9ff932f982b881"
+                "reference": "8271f9745ca26b3da53e3f557e11fc59a992158c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kenashkov/braiiny-products/zipball/9bd32ade428953d2c83ed6674f9ff932f982b881",
-                "reference": "9bd32ade428953d2c83ed6674f9ff932f982b881",
+                "url": "https://api.github.com/repos/kenashkov/braiiny-products/zipball/8271f9745ca26b3da53e3f557e11fc59a992158c",
+                "reference": "8271f9745ca26b3da53e3f557e11fc59a992158c",
                 "shasum": ""
             },
             "require": {
@@ -2627,7 +2627,7 @@
                 "composer/composer": "^1.9",
                 "php": ">=7.2.0"
             },
-            "type": "library",
+            "type": "guzaba-platform-component",
             "autoload": {
                 "psr-4": {
                     "Kenashkov\\Braiiny\\Products\\": "app/src/"
@@ -2650,7 +2650,7 @@
             "keywords": [
                 "products"
             ],
-            "time": "2020-09-19T09:43:58+00:00"
+            "time": "2020-09-19T12:40:47+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4502,8 +4502,8 @@
         "guzaba-platform/crud": 20,
         "azonmedia/routes-map": 20,
         "azonmedia/model-frontend-map": 20,
-        "kenashkov/braiiny-products": 20,
-        "kenashkov/billy-dk": 20
+        "kenashkov/billy-dk": 20,
+        "kenashkov/braiiny-products": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -91,6 +91,14 @@
             "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/src/",
             "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/public_src",
             "installed_time": 1600508058
+        },
+        {
+            "name": "kenashkov/braiiny-products",
+            "namespace": "Kenashkov\\Braiiny\\Products",
+            "root_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products",
+            "src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products/app/src/",
+            "public_src_dir": "/home/local/braiiny/braiiny/vendor/kenashkov/braiiny-products/app/public_src",
+            "installed_time": 1600519644
         }
     ]
 }
