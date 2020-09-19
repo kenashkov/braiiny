@@ -91,14 +91,6 @@
             "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/src/",
             "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/public_src",
             "installed_time": 1600508058
-        },
-        {
-            "name": "guzaba-platform/request-caching",
-            "namespace": "GuzabaPlatform\\RequestCaching",
-            "root_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/request-caching",
-            "src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/request-caching/app/src/",
-            "public_src_dir": "/home/local/braiiny/braiiny/vendor/guzaba-platform/request-caching/app/public_src",
-            "installed_time": 1600508058
         }
     ]
 }

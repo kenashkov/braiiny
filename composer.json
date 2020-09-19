@@ -22,7 +22,6 @@
         "guzaba-platform/app-server-monitor": "dev-master",
         "guzaba-platform/catalog": "dev-master",
         "guzaba-platform/crud": "dev-master",
-        "guzaba-platform/request-caching": "dev-master",
         "azonmedia/routes-map": "dev-master",
         "azonmedia/model-frontend-map": "dev-master",
         "kenashkov/braiiny-products": "dev-master",

@@ -14,5 +14,4 @@ exports.aliases = {
 "@GuzabaPlatform.Cms": path.resolve(__dirname, '/home/local/braiiny/braiiny/vendor/guzaba-platform/cms/app/public_src/src'),
 "@GuzabaPlatform.AppServer.Monitor": path.resolve(__dirname, '/home/local/braiiny/braiiny/vendor/guzaba-platform/app-server-monitor/app/public_src/src'),
 "@GuzabaPlatform.Catalog": path.resolve(__dirname, '/home/local/braiiny/braiiny/vendor/guzaba-platform/catalog/app/public_src/src'),
-"@GuzabaPlatform.RequestCaching": path.resolve(__dirname, '/home/local/braiiny/braiiny/vendor/guzaba-platform/request-caching/app/public_src/src'),
 }
