@@ -1,4 +1,4 @@
-#! /usr/bin/env php
+#!/usr/bin/env php
 <?php
 
 const BANNER_SUCCESS = <<<BANNER
@@ -25,8 +25,12 @@ BANNER;
 
 
 $start_time = time();
-chdir('../../');
-$codecept = getcwd().'/vendor/bin/codecept';
+//chdir('../../');
+//$codecept = getcwd().'/vendor/bin/codecept';
+//this works when executed from any path
+$run_all_tests_dir = dirname(__FILE__);
+chdir($run_all_tests_dir.'/../../');
+$codecept = $run_all_tests_dir.'/../../vendor/bin/codecept';
 
 $all_files = [];
 //do not run the GP ones

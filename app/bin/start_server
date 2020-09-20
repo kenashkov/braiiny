@@ -1,3 +1,4 @@
+#!/bin/bash
 script=$0
 path=$(dirname "$0")
 php $path/start_server.php "$@"
