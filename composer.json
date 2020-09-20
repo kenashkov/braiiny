@@ -25,7 +25,8 @@
         "azonmedia/routes-map": "dev-master",
         "azonmedia/model-frontend-map": "dev-master",
         "kenashkov/billy-dk": "dev-master",
-        "kenashkov/braiiny-products": "dev-master"
+        "kenashkov/braiiny-products": "dev-master",
+        "kenashkov/erp-api": "dev-master"
     },
     "autoload": {
         "psr-4": {
