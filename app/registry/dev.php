@@ -41,7 +41,8 @@ use GuzabaPlatform\Platform\Application\VueComponentHooks;
 use GuzabaPlatform\Platform\Application\ModelFrontendMap;
 use Guzaba2\Transaction\TransactionManager;
 use Psr\Log\LogLevel;
-use \Kenashkov\Braiiny\Application\BillyDk;
+use Kenashkov\Braiiny\Application\BillyDk;
+use Kenashkov\ErpApi\Interfaces\ErpInterface;
 
 return [
     GuzabaPlatform::class => [
@@ -285,14 +286,15 @@ return [
                 ]
 
             ],
-            'TransactionManager'           => [
+            'TransactionManager'            => [
                 'class'                         => TransactionManager::class,
                 'args'                          => [],
                 'type'                          => 'coroutine',
             ],
 
 
-            'Billy'                         => [
+            //'Erp'                           => [
+            ErpInterface::class             => [
                 'class'                         => BillyDk::class,
                 'args'                          => [],
             ]
