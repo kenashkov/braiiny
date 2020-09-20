@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "85e0a10150b88d5cb96b190a6ecd7c81",
+    "content-hash": "ca3b1c8db8a5aed0b16b227c4f93108d",
     "packages": [
         {
             "name": "azonmedia/apm",
@@ -2651,6 +2651,51 @@
                 "products"
             ],
             "time": "2020-09-19T12:40:47+00:00"
+        },
+        {
+            "name": "kenashkov/erp-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenashkov/erp-api.git",
+                "reference": "265399c37697234f4da7217bbcf0bbcc4bbe77f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenashkov/erp-api/zipball/265399c37697234f4da7217bbcf0bbcc4bbe77f7",
+                "reference": "265399c37697234f4da7217bbcf0bbcc4bbe77f7",
+                "shasum": ""
+            },
+            "require": {
+                "azonmedia/components": "dev-master",
+                "composer/composer": "^1.9",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kenashkov\\ErpApi\\": "app/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vesko Kenashkov",
+                    "email": "kenashkov@gmail.com",
+                    "homepage": "http://vesko.blogs.azonmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generic API for interacting with ERPs",
+            "homepage": "https://github.com/kenashkov/erp-api",
+            "keywords": [
+                "ERP",
+                "api"
+            ],
+            "time": "2020-09-20T09:19:10+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -7295,6 +7340,7 @@
         "azonmedia/model-frontend-map": 20,
         "kenashkov/billy-dk": 20,
         "kenashkov/braiiny-products": 20,
+        "kenashkov/erp-api": 20,
         "codeception/codeception": 20,
         "kenashkov/billy-dk-test": 20,
         "kenashkov/braiiny-products-test": 20,

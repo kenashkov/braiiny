@@ -1,19 +1,9 @@
 <template>
     <div id="app">
+        <h1>Braiiny app</h1>
         <div id="nav">
-            <router-link to="/">Home</router-link> |
-            <router-link to="/user/login" v-if="! isLoggedIn">Login</router-link> |
-            <router-link to="/user/register" v-if="! isLoggedIn">Register</router-link>
-            <router-link to="/user/logout" v-if="isLoggedIn">Logout</router-link> |
-
-            <router-link to="/admin/products">Products</router-link>
-            <router-link to="/admin" v-if="isLoggedIn">Admin</router-link>
-
-            <!-- <router-link v-for="(Link, index) in header_links" :key="index" to="/aa">{{Link.link_name}}</router-link> -->
-            <template v-for="(Link, index) in header_links">
-                <!-- <router-link :to="Link.link_frontend_location" :target="Link.link_type === 'redirect' ? '_blank' : '_self' ">{{Link.link_name}}</router-link> | -->
-                <router-link :to="Link.link_frontend_location">{{Link.link_name}}</router-link> |
-            </template>
+            <router-link to="/admin/products">Products</router-link> |
+            <router-link to="/admin/contacts">Contacts (not implemented)</router-link>
         </div>
         <router-view/>
     </div>

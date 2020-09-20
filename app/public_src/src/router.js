@@ -17,6 +17,7 @@ import AliasMatcher from '@GuzabaPlatform.Platform/views/AliasMatcher.vue'
 import Redirect from '@GuzabaPlatform.Platform/views/Redirect.vue'
 
 import Products from '@/../../../vendor/kenashkov/braiiny-products/app/public_src/src/ProductsAdmin.vue'
+import Contacts from '@GuzabaPlatform.Platform/components/Blank.vue'
 
 //import NotFound from '@GuzabaPlatform.Platform/views/NotFound.vue'
 ///import axios from "axios";
@@ -88,6 +89,12 @@ let static_routes = [
         name: 'Products',
         //component: Auth
         component: Products
+    },
+    {
+        path: '/admin/contacts',
+        name: 'Contacts',
+        //component: Auth
+        component: Contacts
     },
     {
         path: '/redirect/:to',
