@@ -5,6 +5,9 @@
 // can hold sensitive environment dependent data that won't be pushed to git
 
 return [
+    \Kenashkov\Braiiny\Application\BillyDk::class => [
+        'api_token'      => 'tokenhere',
+    ],
     \GuzabaPlatform\Platform\Application\RedisConnection::class => [
         'host'      => 'redis',
         'port'      => 6379,
